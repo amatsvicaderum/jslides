@@ -1,0 +1,96 @@
+@import url(main.css);
+
+::-webkit-scrollbar{
+	width: 0;
+}
+::selection {
+  background: #555;
+  color: #efefef;
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--slide-background);
+  color: var(--slide-font-color);
+  font-family: var(--slide-font-family);
+  padding: var(--slide-padding);
+}
+
+h1{
+  color: var(--h1-color);
+  font-size: var(--h1-size);
+  text-align: var(--h1-align);
+  margin: var(--h1-margin);
+}
+h2{
+  color: var(--h2-color);
+  font-size: var(--h2-size);
+  text-align: var(--h2-align);
+}
+h3{
+  color: var(--h3-color);
+  font-size: var(--h3-size);
+  text-align: var(--h3-align);
+  margin: 1em 0 1em 0;
+}
+h4{
+  color: var(--h4-color);
+  font-size: var(--h4-size);
+  text-align: var(--h4-align);
+  margin: 1em 0 1em 0;
+}
+h5{
+  color: var(--h5-color);
+  font-size: var(--h5-size);
+  text-align: var(--h5-align);
+  margin: 1em 0 1em 0;
+}
+h6{
+  color: var(--h6-color);
+  font-size: var(--h6-size);
+  text-align: var(--h6-align);
+  margin: 1em 0 1em 0;
+}
+p{
+  color: var(--p-color);
+  font-size: var(--p-size);
+  text-align: var(--p-align);
+}
+blockquote{
+  background: var(--quote-background);
+  color: var(--quote-color);
+  font-size: var(--quote-size);
+  padding: var(--quote-padding);
+  text-indent: var(--quote-indent);
+  margin: 1em 0 1em 0;
+}
+code{
+  display: block;
+  background: var(--code-background);
+  color: var(--code-color);
+  font-size: var(--code-size);
+  padding: var(--code-padding);
+  text-indent: var(--code-indent);
+  margin: 1em 0 1em 0;
+}
+li{
+  color: var(--list-color);
+  font-size: var(--list-size);
+}
+a{
+  color: var(--a-color);
+  background: none;
+  /* font-size: var(--a-size); */
+  text-decoration: var(--a-decoration);
+}
+a:visited{
+  color: var(--a-visited);
+}
+a:hover{
+  color: var(--a-hover);
+}
+a:active{
+  color: var(--a-active);
+}

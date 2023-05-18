@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@600&display=swap");
+
+::-webkit-scrollbar{
+  width: 0;
+}
+::selection {
+  background: #555;
+  color: #efefef;
+}
+
+:root{
+  --body-padding: 3.5rem;
+  --body-background: #191219;
+  --g-font-family: 'Montserrat', monospace;
+  --slide-container-border: 1px solid #0000;
+  --slide-container-corner: 0.7rem;
+
+  --slide-background: #fef;
+  --slide-font-color: #555;
+  --slide-font-family: 'Montserrat', sans;
+  --slide-padding: 2rem;
+
+  --h1-color: #000;
+  --h1-size: 6em;
+  --h1-align: center;
+  --h1-margin: 12rem 0 0.5rem 0;
+
+  --h2-color: #000;
+  --h2-size: 4rem;
+  --h2-align: center;
+
+  --h3-color: #000;
+  --h3-size: 3rem;
+  --h3-align: left;
+
+  --h4-color: #000;
+  --h4-size: 2.5rem;
+  --h4-align: center;
+
+  --h5-color: #000;
+  --h5-size: 2.5rem;
+  --h5-align: left;
+
+  --h6-color: #000;
+  --h6-size: 2.5rem;
+  --h6-align: right;
+
+  --p-color: #000;
+  --p-size: 2.5rem;
+  --p-align: left;
+
+  --quote-background: #0001;
+  --quote-color: #0d0d0d;
+  --quote-size: 2rem;
+  --quote-padding: 1rem;
+  --quote-indent: 1rem;
+
+  --code-background: #222;
+  --code-color: #0a5;
+  --code-font: monospace;
+  --code-size: 2rem;
+  --code-padding: 1rem;
+
+  --list-color: #000;
+  --list-size: 2rem;
+
+  --a-color: #5969ff;
+  --a-visited: #ac59f9;
+  --a-hover: #1ecaff;
+  --a-active: #ff1e44;
+  --a-decoration: none;
+}
